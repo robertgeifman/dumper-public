@@ -68,7 +68,7 @@
 #if TARGET_OS_IPHONE
 	return [UIColor whiteColor];
 #else
-	return [NSColor whiteColor];
+	return [NSColor textColor];
 #endif /* TARGET_OS_IPHONE */
 }
 

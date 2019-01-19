@@ -59,9 +59,9 @@
 
 - (void)_setupViews
 {
-	[[self contentView] setBackgroundColor:[NSColor colorWithWhite:0.95 alpha:1.0]];
-	[[self separatorView] setBackgroundColor:[NSColor colorWithCalibratedWhite:(160.0 / 255.0) alpha:1.0]];
-	[[self buttonsView] setBackgroundColor:[NSColor colorWithCalibratedWhite:(234.0 / 255.0) alpha:1.0]];
+	[[self contentView] setBackgroundColor:[NSColor windowBackgroundColor]];
+	[[self separatorView] setBackgroundColor:[NSColor separatorColor]];
+	[[self buttonsView] setBackgroundColor:[NSColor windowBackgroundColor]];
 	
 	[[self recentDocumentsTableView] setTarget:self];
 	[[self recentDocumentsTableView] setDoubleAction:@selector(openRecentDocument:)];

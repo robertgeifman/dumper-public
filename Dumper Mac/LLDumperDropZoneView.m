@@ -10,20 +10,12 @@
 
 @interface LLDumperDropZoneView ()
 
-@property (strong, nonatomic) NSGradient *backgroundGradient;
-
 @end
 
 @implementation LLDumperDropZoneView
 
 static void _LLDumperCommonInit(LLDumperDropZoneView *self)
 {
-	NSColor *startingColor = [NSColor colorWithCalibratedWhite:(225.0 / 255.0) alpha:1.0];
-	NSColor *endingColor = [NSColor colorWithCalibratedWhite:(245.0 / 255.0) alpha:1.0];
-	
-	NSGradient *gradient = [[NSGradient alloc] initWithStartingColor:startingColor endingColor:endingColor];
-	
-	self->_backgroundGradient = gradient;
 }
 
 - (id)initWithCoder:(NSCoder *)decoder
@@ -44,13 +36,6 @@ static void _LLDumperCommonInit(LLDumperDropZoneView *self)
 	}
 	_LLDumperCommonInit(self);
 	return self;
-}
-
-#pragma mark - Drawing
-
-- (void)drawRect:(NSRect)dirtyRect
-{
-	[[self backgroundGradient] drawInRect:[self frame] angle:90.0];
 }
 
 #pragma mark - Dragging

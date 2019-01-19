@@ -10,16 +10,11 @@
 		6D780BCB185FCB7E0099CEEE /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 6D780BC9185FCB7E0099CEEE /* Credits.rtf */; };
 		6D780BCF185FCBA40099CEEE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6D780BCD185FCBA40099CEEE /* InfoPlist.strings */; };
 		6D838F3317A6F7C60066B02B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D838F3217A6F7C60066B02B /* Cocoa.framework */; };
-		6D838F5217A6F7C60066B02B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D838F5117A6F7C60066B02B /* XCTest.framework */; };
-		6D838F5317A6F7C60066B02B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D838F3217A6F7C60066B02B /* Cocoa.framework */; };
 		6D9777F31A6A946100EC0AF3 /* ClassDump.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D9777DA1A6A941700EC0AF3 /* ClassDump.framework */; };
 		6D9777F41A6A946100EC0AF3 /* LLDumperData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D9777EA1A6A943700EC0AF3 /* LLDumperData.framework */; };
 		6D9777F51A6A947400EC0AF3 /* LLDumperData.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 6D9777EA1A6A943700EC0AF3 /* LLDumperData.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6D9777F61A6A948200EC0AF3 /* ClassDump.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 6D9777DA1A6A941700EC0AF3 /* ClassDump.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6D9F77AA1905419400745AFD /* NSURL+LLDumperExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D9F77A91905419400745AFD /* NSURL+LLDumperExtensions.m */; };
-		6DA9AD52185FC8CA0079122E /* LLDumperTests-Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA9AD51185FC8CA0079122E /* LLDumperTests-Constants.m */; };
-		6DA9AD54185FC8CE0079122E /* LLDumperClassDumpTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA9AD53185FC8CE0079122E /* LLDumperClassDumpTests.m */; };
-		6DA9AD56185FC9360079122E /* empty_fmw.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DA9AD55185FC9360079122E /* empty_fmw.framework */; };
 		6DA9AD5B185FCA3A0079122E /* LLDumperApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA9AD5A185FCA3A0079122E /* LLDumperApplication.m */; };
 		6DA9AD65185FCA500079122E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DA9AD63185FCA500079122E /* MainMenu.xib */; };
 		6DA9AD69185FCA610079122E /* LLDumperWelcomeWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DA9AD67185FCA610079122E /* LLDumperWelcomeWindow.xib */; };
@@ -52,20 +47,9 @@
 		6DA9ADBE185FCB5B0079122E /* dropzone_down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DA9ADB9185FCB5B0079122E /* dropzone_down@2x.png */; };
 		6DA9ADBF185FCB5B0079122E /* dropzone.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DA9ADBA185FCB5B0079122E /* dropzone.png */; };
 		6DA9ADC0185FCB5B0079122E /* dropzone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DA9ADBB185FCB5B0079122E /* dropzone@2x.png */; };
-		6DEF2266185FC5BF00FCFB55 /* app_as_a_file.app in Resources */ = {isa = PBXBuildFile; fileRef = 6DEF2256185FC56000FCFB55 /* app_as_a_file.app */; };
-		6DEF2267185FC5C200FCFB55 /* empty_app.app in Resources */ = {isa = PBXBuildFile; fileRef = 6DEF2257185FC56000FCFB55 /* empty_app.app */; };
-		6DEF2269185FC5C700FCFB55 /* only_c in Resources */ = {isa = PBXBuildFile; fileRef = 6DEF2259185FC56000FCFB55 /* only_c */; };
-		6DEF226A185FC5CE00FCFB55 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6DEF2261185FC57000FCFB55 /* InfoPlist.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6D838F5417A6F7C60066B02B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6D838F2717A6F7C60066B02B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6D838F2E17A6F7C60066B02B;
-			remoteInfo = Dumper;
-		};
 		6D9777D51A6A941700EC0AF3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6D9777CA1A6A941600EC0AF3 /* class-dump.xcodeproj */;
@@ -139,16 +123,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		6D21B12017B018FF006ED2F0 /* Copy Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-			);
-			name = "Copy Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6D8BDE0317AD3D6500805AAA /* Copy Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -174,7 +148,6 @@
 		6D838F3517A6F7C60066B02B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		6D838F3617A6F7C60066B02B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		6D838F3717A6F7C60066B02B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		6D838F5017A6F7C60066B02B /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D838F5117A6F7C60066B02B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6D9777CA1A6A941600EC0AF3 /* class-dump.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "class-dump.xcodeproj"; path = "externals/class-dump/class-dump.xcodeproj"; sourceTree = "<group>"; };
 		6D9777E31A6A943700EC0AF3 /* Dumper Common.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "Dumper Common.xcodeproj"; sourceTree = "<group>"; };
@@ -263,16 +236,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6D838F4D17A6F7C60066B02B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6D838F5317A6F7C60066B02B /* Cocoa.framework in Frameworks */,
-				6D838F5217A6F7C60066B02B /* XCTest.framework in Frameworks */,
-				6DA9AD56185FC9360079122E /* empty_fmw.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -353,7 +316,6 @@
 			isa = PBXGroup;
 			children = (
 				6D838F2F17A6F7C60066B02B /* Dumper.app */,
-				6D838F5017A6F7C60066B02B /* Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -640,25 +602,6 @@
 			productReference = 6D838F2F17A6F7C60066B02B /* Dumper.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6D838F4F17A6F7C60066B02B /* Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6D838F6317A6F7C60066B02B /* Build configuration list for PBXNativeTarget "Tests" */;
-			buildPhases = (
-				6D838F4C17A6F7C60066B02B /* Sources */,
-				6D838F4D17A6F7C60066B02B /* Frameworks */,
-				6D838F4E17A6F7C60066B02B /* Resources */,
-				6D21B12017B018FF006ED2F0 /* Copy Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6D838F5517A6F7C60066B02B /* PBXTargetDependency */,
-			);
-			name = Tests;
-			productName = DumperTests;
-			productReference = 6D838F5017A6F7C60066B02B /* Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -670,7 +613,7 @@
 				ORGANIZATIONNAME = "Damien DeVille";
 				TargetAttributes = {
 					6D838F2E17A6F7C60066B02B = {
-						DevelopmentTeam = P97H7FTHWN;
+						DevelopmentTeam = HPSN4NS7JC;
 						SystemCapabilities = {
 							com.apple.Sandbox = {
 								enabled = 1;
@@ -679,9 +622,6 @@
 								enabled = 1;
 							};
 						};
-					};
-					6D838F4F17A6F7C60066B02B = {
-						TestTargetID = 6D838F2E17A6F7C60066B02B;
 					};
 				};
 			};
@@ -709,7 +649,6 @@
 			projectRoot = "";
 			targets = (
 				6D838F2E17A6F7C60066B02B /* Dumper */,
-				6D838F4F17A6F7C60066B02B /* Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -797,17 +736,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6D838F4E17A6F7C60066B02B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6DEF2266185FC5BF00FCFB55 /* app_as_a_file.app in Resources */,
-				6DEF226A185FC5CE00FCFB55 /* InfoPlist.strings in Resources */,
-				6DEF2267185FC5C200FCFB55 /* empty_app.app in Resources */,
-				6DEF2269185FC5C700FCFB55 /* only_c in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -837,23 +765,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6D838F4C17A6F7C60066B02B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6DA9AD52185FC8CA0079122E /* LLDumperTests-Constants.m in Sources */,
-				6DA9AD54185FC8CE0079122E /* LLDumperClassDumpTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6D838F5517A6F7C60066B02B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6D838F2E17A6F7C60066B02B /* Dumper */;
-			targetProxy = 6D838F5417A6F7C60066B02B /* PBXContainerItemProxy */;
-		};
 		6D9777F01A6A944400EC0AF3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LLDumperData;
@@ -987,7 +901,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -995,38 +909,18 @@
 		6D3C7C7D185D1A39007C5AD6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Dumper Mac/Dumper.entitlements";
 				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = HPSN4NS7JC;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "Dumper Mac/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		6D3C7C7E185D1A39007C5AD6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Dumper.app/Contents/MacOS/Dumper";
-				CODE_SIGN_IDENTITY = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-				);
-				INFOPLIST_FILE = Tests/Info.plist;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
@@ -1064,7 +958,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 			};
@@ -1073,41 +967,17 @@
 		6D838F6117A6F7C60066B02B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Dumper Mac/Dumper.entitlements";
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = HPSN4NS7JC;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "Dumper Mac/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
-			};
-			name = Debug;
-		};
-		6D838F6417A6F7C60066B02B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Dumper.app/Contents/MacOS/Dumper";
-				CODE_SIGN_IDENTITY = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				HEADER_SEARCH_PATHS = (
-					"$(inherited)",
-					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-				);
-				INFOPLIST_FILE = Tests/Info.plist;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
 		};
@@ -1128,15 +998,6 @@
 			buildConfigurations = (
 				6D838F6117A6F7C60066B02B /* Debug */,
 				6D3C7C7D185D1A39007C5AD6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
-		};
-		6D838F6317A6F7C60066B02B /* Build configuration list for PBXNativeTarget "Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6D838F6417A6F7C60066B02B /* Debug */,
-				6D3C7C7E185D1A39007C5AD6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;

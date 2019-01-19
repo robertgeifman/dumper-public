@@ -19,11 +19,12 @@
 	CGRect insetBounds = CGRectInset([self bounds], 0.5, 0.5);
 	NSBezierPath *path = [NSBezierPath bezierPathWithRoundedRect:insetBounds xRadius:4.0 yRadius:4.0];
 	
-	CGFloat backgroundGradientHeight = 2.5 / CGRectGetHeight(insetBounds);
-	NSGradient *backgroundGradient = [[NSGradient alloc] initWithColorsAndLocations:[NSColor colorWithCalibratedWhite:0.4 alpha:0.15], 0.0, [NSColor clearColor], backgroundGradientHeight, nil];
-	[backgroundGradient drawInBezierPath:path angle:270.0];
+//	CGFloat backgroundGradientHeight = 2.5 / CGRectGetHeight(insetBounds);
+//	NSGradient *gradient = [[NSGradient alloc] initWithColors:[NSColor alternatingContentBackgroundColors]];
+//	NSGradient *gradient = [[NSGradient alloc] initWithColorsAndLocations:[NSColor colorWithCalibratedWhite:0.4 alpha:0.15], 0.0, [NSColor clearColor], backgroundGradientHeight, nil];
+//	[gradient drawInBezierPath:path angle:270.0];
 	
-	[[NSColor colorWithCalibratedWhite:0.68 alpha:1.0] setStroke];
+	[[NSColor separatorColor] setStroke];
 	[path stroke];
 }
 
